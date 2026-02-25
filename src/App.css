@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 0.95rem;
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.card-container{ 
+  display: flex ; /*ativa o flexbox */
+  flex-wrap: wrap;
+  flex-direction: row; /* COLOCA OS CARDS NA HORIZONTAL*/
+  gap: 20px; /*espaço entre os cards*/
+  justify-content: center; /*centrilzar os cards*/
+  align-items: stretch;
+  padding: 20px;
+}
+
+
+
+
+.card-container > div{
+  display: flex;         /* Faz a div interna também ser flex */
+  flex-direction: column; 
+  min-width: 320px;      /* Garante que fiquem largos o suficiente */
+  max-width: 400px;
+}
