@@ -1,0 +1,15 @@
+.card-body{
+    padding: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-tittle{
+    font-size: 2em;
+}
+.card-subtittle{
+    font-size: 1em;
+}

@@ -4,14 +4,17 @@ import imagemAspectos from './assets/miucha1.jpeg'
 import imagemGestao from './assets/dummy.jpeg'
 import imageGit from './assets/chayaneKarl.jpeg'
 import imageDocker from './assets/miucha2.jpeg'
+import Cardteste from './components/Cardteste'
 import './App.css'
 
 function App() {
   
 
   return (
+    
     <div className="Header">
-      <Header/>
+      <Header />
+      <Cardteste />  
       <main className="card-container">
         <div>
           <Card
