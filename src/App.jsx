@@ -5,6 +5,7 @@ import imagemGestao from './assets/dummy.jpeg'
 import imageGit from './assets/chayaneKarl.jpeg'
 import imageDocker from './assets/miucha2.jpeg'
 import Cardteste from './components/Cardteste'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
       <main className="card-container">
         <div>
           <Card
-            title="Aspectos éticos e legais da comunicação"
+            title="ASPECTOSos éticos e legais da comunicação"
             description="
             Incluir a ética no mundo digital, como podemos perceber, é uma prática muito importante para que seja possível utilizar a internet com segurança e responsabilidade, porém a prática não é tão simples quanto parece.
             Os novos softwares inteligentes, algoritmos e outras tecnologias estão revolucionando o mercado e tornando cada vez mais difícil desenhar as linhas que separam o mundo digital do físico."
@@ -81,6 +82,7 @@ function App() {
             // imageSrc="path_to_your_image.jpg" // Optional image prop 
           />
         </div>
+        <Footer />
       </main>
     </div>
   )
